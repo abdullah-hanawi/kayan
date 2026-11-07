@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18434289676"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18434289676');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="كيان باك | ماكينات طباعة تاريخ الصلاحية وكود الإنتاج، وماكينات التعبئة والتغليف للمصانع. توريد وتركيب وصيانة ودعم فني.">
+    <title>Kayan Pack | كيان باك لماكينات طباعة تاريخ الصلاحية والتعبئة والتغليف</title>
+    <style>
+        /* CSS RESET & VARIABLES */
+        :root {
+            --bg-color: #f7f9fa;
+            --surface-color: #ffffff;
+            --primary-dark: #1e293b;
+            --accent-muted: #475569;
+            --accent: #0f766e;
+            --text-main: #334155;
+            --text-light: #64748b;
+            --border-color: #e2e8f0;
+            --whatsapp-color: #25d366;
+            --whatsapp-hover: #128c7e;
+            --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* HEADER & NAVIGATION */
+        header {
+            background-color: var(--surface-color);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 70px;
+            padding: 10px 0;
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+            letter-spacing: -0.5px;
+            white-space: nowrap;
+        }
+
+        .logo span {
+            color: var(--text-light);
+            font-size: 0.85rem;
+            font-weight: 400;
+            margin-right: 4px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-light);
+            font-size: 0.95rem;
+            transition: var(--transition);
+            white-space: nowrap;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-dark);
+        }
+
+        /* IMAGES */
+        .img-box {
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-soft);
+            background-color: #e2e8f0;
+        }
+
+        .img-box img {
+            width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            padding: 50px 0 60px;
+            text-align: center;
+            background-color: var(--surface-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .hero .img-box {
+            max-width: 750px;
+            margin: 0 auto 28px;
+        }
+
+        .hero .img-box img {
+            height: 320px;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            color: var(--primary-dark);
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .hero p {
+            font-size: 1.05rem;
+            color: var(--text-light);
+            max-width: 700px;
+            margin: 0 auto 24px;
+        }
+
+        /* BUTTONS */
+        .hero-actions {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: var(--transition);
+            border: 1px solid transparent;
+        }
+
+        .btn-call {
+            background-color: var(--primary-dark);
+            color: #ffffff;
+        }
+
+        .btn-call:hover {
+            background-color: var(--accent-muted);
+        }
+
+        .btn-wa {
+            background-color: var(--whatsapp-color);
+            color: #ffffff;
+        }
+
+        .btn-wa:hover {
+            background-color: var(--whatsapp-hover);
+        }
+
+        /* SECTIONS */
+        .section {
+            padding: 70px 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.5rem;
+            color: var(--primary-dark);
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .section-sub {
+            text-align: center;
+            color: var(--text-light);
+            max-width: 680px;
+            margin: 0 auto 36px;
+            font-size: 0.98rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+        }
+
+        .card {
+            background-color: var(--surface-color);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-soft);
+            transition: var(--transition);
+            overflow: hidden;
+        }
+
+        .card:hover {
+            border-color: #cbd5e1;
+            transform: translateY(-2px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 190px;
+            object-fit: cover;
+            display: block;
+            background-color: #e2e8f0;
+        }
+
+        .card-body {
+            padding: 22px;
+        }
+
+        .card h3 {
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .card p {
+            font-size: 0.92rem;
+            color: var(--text-light);
+        }
+
+        /* FEATURE LIST */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+        }
+
+        .feature {
+            background-color: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-right: 3px solid var(--accent);
+            border-radius: 8px;
+            padding: 18px 20px;
+            font-size: 0.93rem;
+        }
+
+        .feature strong {
+            display: block;
+            color: var(--primary-dark);
+            margin-bottom: 4px;
+        }
+
+        /* CTA */
+        .cta {
+            margin: 70px 0 0;
+            padding: 50px 0;
+            background-color: var(--primary-dark);
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .cta p {
+            color: #cbd5e1;
+            margin-bottom: 24px;
+        }
+
+        /* FLOATING WHATSAPP BUTTON */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 24px;
+            left: 24px;
+            background-color: var(--whatsapp-color);
+            color: #ffffff;
+            border-radius: 50px;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            text-decoration: none;
+            z-index: 1000;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .whatsapp-float:hover {
+            background-color: var(--whatsapp-hover);
+            transform: scale(1.05);
+        }
+
+        .whatsapp-icon {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        /* FOOTER */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        /* MOBILE */
+        @media (max-width: 650px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 12px;
+                padding: 14px 0;
+            }
+
+            .nav-links {
+                width: 100%;
+                justify-content: center;
+                gap: 16px;
+                border-top: 1px solid var(--border-color);
+                padding-top: 10px;
+            }
+
+            .hero {
+                padding: 32px 0 40px;
+            }
+
+            .hero .img-box img {
+                height: 200px;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .whatsapp-float {
+                bottom: 16px;
+                left: 16px;
+                padding: 10px 16px;
+                font-size: 0.88rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Kayan Pack <span>| كيان باك</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">عن الشركة</a></li>
+                <li><a href="#printers">ماكينات الطباعة</a></li>
+                <li><a href="#packaging">التعبئة والتغليف</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="about">
+        <div class="container">
+
+            <div class="img-box">
+                <!-- صورة خط إنتاج صناعي وآلي -->
+                <img src="https://images.pexels.com/photos/18631424/pexels-photo-18631424.jpeg" alt="ماكينة طباعة تاريخ الصلاحية على خط إنتاج - كيان باك">
+
+            <h1>Kayan Pack | كيان باك</h1>
+            <p>نوفر ماكينات طباعة تاريخ الصلاحية وكود الإنتاج ورقم التشغيلة بدقة عالية وسرعة مناسبة لكل خطوط الإنتاج، بالإضافة إلى ماكينات التعبئة والتغليف للمصانع الصغيرة والمتوسطة والكبيرة، مع التركيب والتدريب والصيانة والدعم الفني.</p>
+
+            <div class="hero-actions">
+                <a href="tel:01004652033" class="btn btn-call">
+                    📞 اتصل بنا: 01004652033
+                </a>
+                <a href="https://wa.me/201004652033?text=السلام%20عليكم،%20أستفسر%20عن%20ماكينات%20طباعة%20تاريخ%20الصلاحية%20والتعبئة%20والتغليف" target="_blank" class="btn btn-wa">
+                    💬 تواصل عبر واتساب
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- DATE PRINTERS -->
+    <section class="section" id="printers">
+        <div class="container">
+            <h2 class="section-title">ماكينات طباعة تاريخ الصلاحية</h2>
+            <p class="section-sub">اختيار الطابعة المناسبة يعتمد على نوع العبوة وسرعة الخط وحجم الكود المطلوب. نساعدك تختار الأنسب لمنتجك.</p>
+
+            <div class="grid">
+                <div class="card">
+                    <!-- طابعة Inkjet مستمر CIJ -->
+                    <img src="https://tse2.mm.bing.net/th/id/OIP._DQffnx89cI6A1XgoT3KSQHaFS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="طابعة Inkjet مستمر CIJ لتاريخ الصلاحية">
+                    <div class="card-body">
+                        <h3>طابعات Inkjet المستمر (CIJ)</h3>
+                        <p>طباعة بدون تلامس على الزجاجات والعلب والأكياس والكراتين والأسطح المنحنية، بسرعات عالية تناسب خطوط الإنتاج المستمرة.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- طابعة Thermal Transfer TTO -->
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.NJPyW9Mhvh_2_ViyCcabDAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="طابعة Thermal Transfer TTO لتاريخ الصلاحية">
+                    <div class="card-body">
+                        <h3>طابعات الحرارة TTO</h3>
+                        <p>طباعة واضحة وعالية الدقة على الأفلام والأكياس المرنة، مناسبة لمصانع الأغذية والمنظفات ومستحضرات التجميل.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- طابعة Thermal Inkjet TIJ -->
+                    <img src="https://th.bing.com/th/id/OIP._aYs6oinAnVGzJPR-GSY2wHaHa?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="طابعة Thermal Inkjet TIJ لتاريخ الصلاحية">
+                    <div class="card-body">
+                        <h3>طابعات Thermal Inkjet (TIJ)</h3>
+                        <p>طباعة نظيفة وسهلة التشغيل للتاريخ والباركود وQR Code على الكراتين والعبوات، بتكلفة تشغيل منخفضة وصيانة بسيطة.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- ماكينة كود ليزر -->
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.QSBE8p2zfsqj7OXvriSiBQHaHa?r=0&w=800&h=800&rs=1&pid=ImgDetMain&o=7&rm=3" alt="طابعة ليزر لتاريخ الصلاحية - كيان باك">
+                    <div class="card-body">
+                        <h3>طابعات الليزر</h3>
+                        <p>علامة دائمة لا تُمحى على البلاستيك والزجاج والمعدن والكرتون، بدون أحبار ولا مستهلكات.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="height: 36px"></div>
+
+            <div class="features">
+                <div class="feature"><strong>تاريخ الإنتاج والانتهاء</strong>طباعة تلقائية مع ضبط التاريخ والوقت.</div>
+                <div class="feature"><strong>رقم التشغيلة والباركود</strong>طباعة Batch Number وباركود وQR Code.</div>
+                <div class="feature"><strong>تركيب وتدريب</strong>تركيب على خط الإنتاج وتدريب العاملين.</div>
+                <div class="feature"><strong>أحبار ومستلزمات</strong>توفير الأحبار والمذيبات وقطع الغيار.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PACKAGING -->
+    <section class="section" id="packaging">
+        <div class="container">
+            <h2 class="section-title">ماكينات التعبئة والتغليف</h2>
+            <p class="section-sub">حلول تعبئة وتغليف تكمّل خط الإنتاج مع ماكينات الطباعة، من الماكينة الواحدة حتى الخط المتكامل.</p>
+
+            <div class="grid">
+                <div class="card">
+                    <!-- ماكينة تعبئة وتغليف أوتوماتيك -->
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.S1h5C2EWZQCKeoziLhclPgHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="ماكينة تعبئة وتغليف أوتوماتيك">
+                    <div class="card-body">
+                        <h3>ماكينات التعبئة والتغليف الأوتوماتيك</h3>
+                        <p>تعبئة وتغليف الأكياس والسناكس والحبوب والمساحيق بدقة في الوزن وسرعة إنتاج عالية.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- ماكينة تعبئة سوائل -->
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.VPpAXO6ALXNgsDOQvIElgAAAAA?r=0&w=350&h=350&rs=1&pid=ImgDetMain&o=7&rm=3" alt="ماكينة تعبئة سوائل">
+                    <div class="card-body">
+                        <h3>ماكينات تعبئة السوائل</h3>
+                        <p>تعبئة الزجاجات والعبوات للعصائر والزيوت والمنظفات ومستحضرات التجميل.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- ماكينة سيل وتغليف -->
+                    <img src="https://tse1.mm.bing.net/th/id/OIF.fWfRumCnKCuRfeLSauOEfQ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="ماكينة سيل وتغليف">
+                    <div class="card-body">
+                        <h3>ماكينات السيل والتغليف</h3>
+                        <p>لحام وتغليف العبوات بشكل محكم لحماية المنتج وإطالة مدة صلاحيته.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>عايز تعرف الماكينة المناسبة لمصنعك؟</h2>
+            <p>كلمنا واحنا نرشحلك الأنسب لمنتجك وخط إنتاجك، ونرسلك عرض السعر.</p>
+            <div class="hero-actions">
+                <a href="tel:01004652033" class="btn btn-wa" style="background-color:#ffffff;color:#1e293b;">
+                    📞 اتصل بنا: 01004652033
+                </a>
+                <a href="https://wa.me/201004652033?text=السلام%20عليكم،%20أستفسر%20عن%20ماكينات%20طباعة%20تاريخ%20الصلاحية%20والتعبئة%20والتغليف" target="_blank" class="btn btn-wa">
+                    💬 تواصل عبر واتساب
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/201004652033?text=السلام%20عليكم،%20أستفسر%20عن%20ماكينات%20طباعة%20تاريخ%20الصلاحية%20والتعبئة%20والتغليف" target="_blank" class="whatsapp-float" aria-label="تواصل معنا عبر الواتساب">
+        <svg class="whatsapp-icon" viewBox="0 0 24 24">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+        </svg>
+        <span>راسلنا على واتساب</span>
+    </a>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 جميع الحقوق محفوظة لشركة كيان باك - Kayan Pack[cite: 1]</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
